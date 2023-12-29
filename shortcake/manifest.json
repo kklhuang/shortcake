@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Shortcake",
+  "version": "1.0",
+  "description": "Quickly find the ingredients needed for any recipe!",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon-3.png"
+  },
+  "permissions": ["activeTab", "scripting"]
+}
