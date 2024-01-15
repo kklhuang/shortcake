@@ -1,3 +1,24 @@
 body{
-    min-width: 400px;
+    min-width: 300px;
+    max-width: 400px;
+    background-color: #FBF8F7;
+}
+
+#ingredientsList{
+    color: #C1756D;
+}
+
+#scrapeIngredients {
+    background-color: #FBF8F7;
+    color: #C1756D;
+    border-radius: 5px;
+    border-color: #C1756D;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#scrapeIngredients:hover {
+    background-color: #EFE1DF;
 }
